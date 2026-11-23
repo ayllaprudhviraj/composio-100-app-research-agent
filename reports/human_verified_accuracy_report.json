@@ -1,0 +1,1066 @@
+{
+  "benchmark_summary": {
+    "total_sampled_apps": 20,
+    "apps_with_100pct_accuracy": 6,
+    "app_level_accuracy": 0.3,
+    "total_claims_audited": 100,
+    "claims_correct": 81,
+    "overall_claim_level_accuracy": 0.81,
+    "field_level_accuracies": {
+      "authentication": 1.0,
+      "developer_access": 0.6,
+      "has_public_api": 1.0,
+      "api_types": 1.0,
+      "mcp_status": 0.45
+    }
+  },
+  "audited_applications": [
+    {
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "category": "CRM and Sales",
+      "all_fields_correct": true,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "OAuth2",
+            "API key",
+            "Basic authentication",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "OAuth2",
+            "JWT or bearer token"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Paid-plan dependent",
+          "human_confirmed": "Paid-plan dependent",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Other"
+          ],
+          "human_confirmed": [
+            "REST",
+            "SOAP"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Community MCP",
+          "human_confirmed": "Community MCP",
+          "correct": true,
+          "error_type": null
+        }
+      },
+      "evidence_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm"
+    },
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "category": "CRM and Sales",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "OAuth2",
+            "API key",
+            "Personal access token",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "OAuth2",
+            "Personal access token"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve free",
+          "human_confirmed": "Self-serve trial",
+          "correct": false,
+          "error_type": "developer_gating_misclassification"
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Third-party MCP",
+          "human_confirmed": "Community MCP",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://developers.hubspot.com/docs/api/overview"
+    },
+    {
+      "app_id": 11,
+      "app_name": "Zendesk",
+      "category": "Support and Helpdesk",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "OAuth2",
+            "API key",
+            "Basic authentication",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "OAuth2",
+            "API key",
+            "Basic authentication"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Paid-plan dependent",
+          "human_confirmed": "Self-serve trial",
+          "correct": false,
+          "error_type": "developer_gating_misclassification"
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "Webhooks",
+            "SDK"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Third-party MCP",
+          "human_confirmed": "Community MCP",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://developer.zendesk.com/api-reference/"
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "category": "Support and Helpdesk",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "OAuth2",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "OAuth2",
+            "Personal access token"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve free",
+          "human_confirmed": "Paid-plan dependent",
+          "correct": false,
+          "error_type": "developer_gating_misclassification"
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Official MCP",
+          "human_confirmed": "Community MCP",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/"
+    },
+    {
+      "app_id": 21,
+      "app_name": "Slack",
+      "category": "Communications and Messaging",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "OAuth2",
+            "API key",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "OAuth2",
+            "JWT or bearer token"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve free",
+          "human_confirmed": "Self-serve free",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks",
+            "Other"
+          ],
+          "human_confirmed": [
+            "REST",
+            "Webhooks"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Official MCP",
+          "human_confirmed": "Community MCP",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://api.slack.com/authentication"
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "category": "Communications and Messaging",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "Other"
+          ],
+          "human_confirmed": [
+            "Basic authentication",
+            "API key"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve trial",
+          "human_confirmed": "Self-serve trial",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Official MCP",
+          "human_confirmed": "Community MCP",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://www.twilio.com/docs/usage/api"
+    },
+    {
+      "app_id": 31,
+      "app_name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "OAuth2",
+            "API key"
+          ],
+          "human_confirmed": [
+            "OAuth2"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Admin approval required",
+          "human_confirmed": "Admin approval required",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Other"
+          ],
+          "human_confirmed": [
+            "REST",
+            "gRPC"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Community MCP",
+          "human_confirmed": "No verified MCP found",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://developers.google.com/google-ads/api/docs/first-call/overview"
+    },
+    {
+      "app_id": 35,
+      "app_name": "Mailchimp",
+      "category": "Marketing, Ads, Email and Social",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "OAuth2",
+            "Basic authentication",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "API key",
+            "OAuth2"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve free",
+          "human_confirmed": "Self-serve free",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Third-party MCP",
+          "human_confirmed": "Community MCP",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://mailchimp.com/developer/marketing/guides/quick-start/"
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "category": "Ecommerce",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "OAuth2",
+            "API key",
+            "JWT or bearer token",
+            "Personal access token"
+          ],
+          "human_confirmed": [
+            "OAuth2",
+            "JWT or bearer token"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve trial",
+          "human_confirmed": "Self-serve free",
+          "correct": false,
+          "error_type": "developer_gating_misclassification"
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "GraphQL",
+            "SDK",
+            "Webhooks",
+            "Other"
+          ],
+          "human_confirmed": [
+            "REST",
+            "GraphQL"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Community MCP",
+          "human_confirmed": "Community MCP",
+          "correct": true,
+          "error_type": null
+        }
+      },
+      "evidence_url": "https://shopify.dev/docs/api/admin-rest"
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "category": "Ecommerce",
+      "all_fields_correct": true,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "Basic authentication"
+          ],
+          "human_confirmed": [
+            "Basic authentication",
+            "OAuth2"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve free",
+          "human_confirmed": "Self-serve free",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks",
+            "Other"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Community MCP",
+          "human_confirmed": "Community MCP",
+          "correct": true,
+          "error_type": null
+        }
+      },
+      "evidence_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/"
+    },
+    {
+      "app_id": 51,
+      "app_name": "DataForSEO",
+      "category": "Data, SEO and Scraping",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "Basic authentication",
+            "OAuth2"
+          ],
+          "human_confirmed": [
+            "Basic authentication"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve trial",
+          "human_confirmed": "Self-serve trial",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Official MCP",
+          "human_confirmed": "No verified MCP found",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://docs.dataforseo.com/v3/"
+    },
+    {
+      "app_id": 56,
+      "app_name": "Firecrawl",
+      "category": "Data, SEO and Scraping",
+      "all_fields_correct": true,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "JWT or bearer token",
+            "OAuth2"
+          ],
+          "human_confirmed": [
+            "API key",
+            "JWT or bearer token"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve free",
+          "human_confirmed": "Self-serve free",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks"
+          ],
+          "human_confirmed": [
+            "REST",
+            "SDK"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Official MCP",
+          "human_confirmed": "Official MCP",
+          "correct": true,
+          "error_type": null
+        }
+      },
+      "evidence_url": "https://docs.firecrawl.dev/api-reference"
+    },
+    {
+      "app_id": 61,
+      "app_name": "GitHub",
+      "category": "Developer, Infra and Data Platforms",
+      "all_fields_correct": true,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "OAuth2",
+            "JWT or bearer token",
+            "Basic authentication"
+          ],
+          "human_confirmed": [
+            "Personal access token",
+            "OAuth2"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve free",
+          "human_confirmed": "Self-serve free",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks",
+            "Other"
+          ],
+          "human_confirmed": [
+            "REST",
+            "GraphQL"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Official MCP",
+          "human_confirmed": "Official MCP",
+          "correct": true,
+          "error_type": null
+        }
+      },
+      "evidence_url": "https://docs.github.com/en/rest"
+    },
+    {
+      "app_id": 65,
+      "app_name": "Supabase",
+      "category": "Developer, Infra and Data Platforms",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "OAuth2",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "API key",
+            "JWT or bearer token"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve trial",
+          "human_confirmed": "Self-serve free",
+          "correct": false,
+          "error_type": "developer_gating_misclassification"
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks"
+          ],
+          "human_confirmed": [
+            "REST",
+            "GraphQL"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Official MCP",
+          "human_confirmed": "Official MCP",
+          "correct": true,
+          "error_type": null
+        }
+      },
+      "evidence_url": "https://supabase.com/docs/guides/api"
+    },
+    {
+      "app_id": 71,
+      "app_name": "Notion",
+      "category": "Productivity and Project Management",
+      "all_fields_correct": true,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "OAuth2",
+            "Personal access token",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "OAuth2",
+            "JWT or bearer token"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve free",
+          "human_confirmed": "Self-serve free",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Community MCP",
+          "human_confirmed": "Community MCP",
+          "correct": true,
+          "error_type": null
+        }
+      },
+      "evidence_url": "https://developers.notion.com/docs/getting-started"
+    },
+    {
+      "app_id": 73,
+      "app_name": "Linear",
+      "category": "Productivity and Project Management",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "OAuth2",
+            "API key",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "Personal access token",
+            "OAuth2"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve free",
+          "human_confirmed": "Self-serve free",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "GraphQL",
+            "SDK",
+            "Webhooks"
+          ],
+          "human_confirmed": [
+            "GraphQL"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Official MCP",
+          "human_confirmed": "Community MCP",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api"
+    },
+    {
+      "app_id": 81,
+      "app_name": "Stripe",
+      "category": "Finance and Fintech",
+      "all_fields_correct": true,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "Basic authentication",
+            "JWT or bearer token",
+            "Other"
+          ],
+          "human_confirmed": [
+            "API key",
+            "JWT or bearer token"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve free",
+          "human_confirmed": "Self-serve free",
+          "correct": true,
+          "error_type": null
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK",
+            "Webhooks"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Official MCP",
+          "human_confirmed": "Official MCP",
+          "correct": true,
+          "error_type": null
+        }
+      },
+      "evidence_url": "https://docs.stripe.com/api"
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "category": "Finance and Fintech",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "Other"
+          ],
+          "human_confirmed": [
+            "API key"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Self-serve trial",
+          "human_confirmed": "Self-serve free",
+          "correct": false,
+          "error_type": "developer_gating_misclassification"
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Community MCP",
+          "human_confirmed": "Community MCP",
+          "correct": true,
+          "error_type": null
+        }
+      },
+      "evidence_url": "https://plaid.com/docs/api/"
+    },
+    {
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "API key",
+            "Unknown"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Paid-plan dependent",
+          "human_confirmed": "Partner/contact-sales gated",
+          "correct": false,
+          "error_type": "developer_gating_misclassification"
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Third-party MCP",
+          "human_confirmed": "No verified MCP found",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://help.otter.ai"
+    },
+    {
+      "app_id": 96,
+      "app_name": "Devin",
+      "category": "AI, Research and Media-native",
+      "all_fields_correct": false,
+      "claims": {
+        "authentication": {
+          "first_pass_predicted": [
+            "API key",
+            "JWT or bearer token"
+          ],
+          "human_confirmed": [
+            "API key",
+            "JWT or bearer token"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "developer_access": {
+          "first_pass_predicted": "Paid-plan dependent",
+          "human_confirmed": "Self-serve trial",
+          "correct": false,
+          "error_type": "developer_gating_misclassification"
+        },
+        "has_public_api": {
+          "first_pass_predicted": true,
+          "human_confirmed": true,
+          "correct": true,
+          "error_type": null
+        },
+        "api_types": {
+          "first_pass_predicted": [
+            "REST",
+            "SDK"
+          ],
+          "human_confirmed": [
+            "REST"
+          ],
+          "correct": true,
+          "error_type": null
+        },
+        "mcp_status": {
+          "first_pass_predicted": "Community MCP",
+          "human_confirmed": "Official MCP",
+          "correct": false,
+          "error_type": "mcp_attribution_miss"
+        }
+      },
+      "evidence_url": "https://docs.devin.ai"
+    }
+  ]
+}

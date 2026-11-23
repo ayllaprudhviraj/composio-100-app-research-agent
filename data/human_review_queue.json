@@ -1,0 +1,316 @@
+[
+  {
+    "app_id": 5,
+    "app_name": "Twenty",
+    "field_name": "authentication",
+    "predicted_value": [
+      "JWT or bearer token"
+    ],
+    "review_reason": "Authentication method mentioned without direct text match in retrieved corpus",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 5,
+    "app_name": "Twenty",
+    "field_name": "mcp",
+    "predicted_value": "Third-party MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 6,
+    "app_name": "Podio",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 8,
+    "app_name": "Close",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 10,
+    "app_name": "DealCloud",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 12,
+    "app_name": "Intercom",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 14,
+    "app_name": "Front",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 15,
+    "app_name": "Pylon",
+    "field_name": "authentication",
+    "predicted_value": [
+      "JWT or bearer token"
+    ],
+    "review_reason": "Authentication method mentioned without direct text match in retrieved corpus",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 17,
+    "app_name": "Plain",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 21,
+    "app_name": "Slack",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 37,
+    "app_name": "systeme.io",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 39,
+    "app_name": "Threads (Meta)",
+    "field_name": "authentication",
+    "predicted_value": [
+      "OAuth2",
+      "JWT or bearer token"
+    ],
+    "review_reason": "Authentication method mentioned without direct text match in retrieved corpus",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 51,
+    "app_name": "DataForSEO",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 56,
+    "app_name": "Firecrawl",
+    "field_name": "authentication",
+    "predicted_value": [
+      "JWT or bearer token",
+      "OAuth2"
+    ],
+    "review_reason": "Authentication method mentioned without direct text match in retrieved corpus",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 69,
+    "app_name": "Datadog",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 70,
+    "app_name": "Sentry",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 73,
+    "app_name": "Linear",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 75,
+    "app_name": "Asana",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 77,
+    "app_name": "ClickUp",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 81,
+    "app_name": "Stripe",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 84,
+    "app_name": "Paygent Connect",
+    "field_name": "authentication",
+    "predicted_value": [
+      "JWT or bearer token"
+    ],
+    "review_reason": "Authentication method mentioned without direct text match in retrieved corpus",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 85,
+    "app_name": "iPayX",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 89,
+    "app_name": "Ramp",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 90,
+    "app_name": "PitchBook",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 94,
+    "app_name": "Consensus",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 97,
+    "app_name": "higgsfield",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 98,
+    "app_name": "Mermaid CLI",
+    "field_name": "authentication",
+    "predicted_value": [],
+    "review_reason": "Authentication method mentioned without direct text match in retrieved corpus",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 99,
+    "app_name": "YouTube Transcript",
+    "field_name": "authentication",
+    "predicted_value": [
+      "JWT or bearer token"
+    ],
+    "review_reason": "Authentication method mentioned without direct text match in retrieved corpus",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 99,
+    "app_name": "YouTube Transcript",
+    "field_name": "mcp",
+    "predicted_value": "Official MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  },
+  {
+    "app_id": 100,
+    "app_name": "Grain",
+    "field_name": "mcp",
+    "predicted_value": "Community MCP",
+    "review_reason": "Claimed MCP server exists but repository URL is missing or non-GitHub",
+    "evidence_url": null,
+    "human_confirmed_value": null,
+    "reviewed": false
+  }
+]

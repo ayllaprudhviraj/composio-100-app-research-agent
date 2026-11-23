@@ -1,0 +1,307 @@
+{
+  "1": {
+    "name": "Salesforce",
+    "category": "CRM and Sales",
+    "expected_auth": [
+      "OAuth2",
+      "JWT or bearer token"
+    ],
+    "expected_access": "Paid-plan dependent",
+    "expected_api_types": [
+      "REST",
+      "SOAP"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm"
+  },
+  "2": {
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "expected_auth": [
+      "OAuth2",
+      "Personal access token"
+    ],
+    "expected_access": "Self-serve trial",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://developers.hubspot.com/docs/api/overview"
+  },
+  "11": {
+    "name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "expected_auth": [
+      "OAuth2",
+      "API key",
+      "Basic authentication"
+    ],
+    "expected_access": "Self-serve trial",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://developer.zendesk.com/api-reference/"
+  },
+  "12": {
+    "name": "Intercom",
+    "category": "Support and Helpdesk",
+    "expected_auth": [
+      "OAuth2",
+      "Personal access token"
+    ],
+    "expected_access": "Paid-plan dependent",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/"
+  },
+  "21": {
+    "name": "Slack",
+    "category": "Communications and Messaging",
+    "expected_auth": [
+      "OAuth2",
+      "JWT or bearer token"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://api.slack.com/authentication"
+  },
+  "22": {
+    "name": "Twilio",
+    "category": "Communications and Messaging",
+    "expected_auth": [
+      "Basic authentication",
+      "API key"
+    ],
+    "expected_access": "Self-serve trial",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://www.twilio.com/docs/usage/api"
+  },
+  "31": {
+    "name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "expected_auth": [
+      "OAuth2"
+    ],
+    "expected_access": "Admin approval required",
+    "expected_api_types": [
+      "REST",
+      "gRPC"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "No verified MCP found",
+    "evidence_url": "https://developers.google.com/google-ads/api/docs/first-call/overview"
+  },
+  "35": {
+    "name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "expected_auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://mailchimp.com/developer/marketing/guides/quick-start/"
+  },
+  "41": {
+    "name": "Shopify",
+    "category": "Ecommerce",
+    "expected_auth": [
+      "OAuth2",
+      "JWT or bearer token"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "REST",
+      "GraphQL"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://shopify.dev/docs/api/admin-rest"
+  },
+  "42": {
+    "name": "WooCommerce",
+    "category": "Ecommerce",
+    "expected_auth": [
+      "Basic authentication",
+      "OAuth2"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/"
+  },
+  "51": {
+    "name": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "expected_auth": [
+      "Basic authentication"
+    ],
+    "expected_access": "Self-serve trial",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "No verified MCP found",
+    "evidence_url": "https://docs.dataforseo.com/v3/"
+  },
+  "56": {
+    "name": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "expected_auth": [
+      "API key",
+      "JWT or bearer token"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "REST",
+      "SDK"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Official MCP",
+    "evidence_url": "https://docs.firecrawl.dev/api-reference"
+  },
+  "61": {
+    "name": "GitHub",
+    "category": "Developer, Infra and Data Platforms",
+    "expected_auth": [
+      "Personal access token",
+      "OAuth2"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "REST",
+      "GraphQL"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Official MCP",
+    "evidence_url": "https://docs.github.com/en/rest"
+  },
+  "65": {
+    "name": "Supabase",
+    "category": "Developer, Infra and Data Platforms",
+    "expected_auth": [
+      "API key",
+      "JWT or bearer token"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "REST",
+      "GraphQL"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Official MCP",
+    "evidence_url": "https://supabase.com/docs/guides/api"
+  },
+  "71": {
+    "name": "Notion",
+    "category": "Productivity and Project Management",
+    "expected_auth": [
+      "OAuth2",
+      "JWT or bearer token"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://developers.notion.com/docs/getting-started"
+  },
+  "73": {
+    "name": "Linear",
+    "category": "Productivity and Project Management",
+    "expected_auth": [
+      "Personal access token",
+      "OAuth2"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "GraphQL"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api"
+  },
+  "81": {
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "expected_auth": [
+      "API key",
+      "JWT or bearer token"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Official MCP",
+    "evidence_url": "https://docs.stripe.com/api"
+  },
+  "82": {
+    "name": "Plaid",
+    "category": "Finance and Fintech",
+    "expected_auth": [
+      "API key"
+    ],
+    "expected_access": "Self-serve free",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Community MCP",
+    "evidence_url": "https://plaid.com/docs/api/"
+  },
+  "92": {
+    "name": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "expected_auth": [
+      "API key",
+      "Unknown"
+    ],
+    "expected_access": "Partner/contact-sales gated",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "No verified MCP found",
+    "evidence_url": "https://help.otter.ai"
+  },
+  "96": {
+    "name": "Devin",
+    "category": "AI, Research and Media-native",
+    "expected_auth": [
+      "API key",
+      "JWT or bearer token"
+    ],
+    "expected_access": "Self-serve trial",
+    "expected_api_types": [
+      "REST"
+    ],
+    "expected_has_public_api": true,
+    "expected_mcp_status": "Official MCP",
+    "evidence_url": "https://docs.devin.ai"
+  }
+}

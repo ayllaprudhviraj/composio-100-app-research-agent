@@ -1,0 +1,241 @@
+{
+  "dataset_summary": {
+    "total_apps": 100
+  },
+  "1_categories": {
+    "CRM and Sales": {
+      "count": 10,
+      "percentage": 10.0
+    },
+    "Support and Helpdesk": {
+      "count": 10,
+      "percentage": 10.0
+    },
+    "Communications and Messaging": {
+      "count": 10,
+      "percentage": 10.0
+    },
+    "Marketing, Ads, Email and Social": {
+      "count": 10,
+      "percentage": 10.0
+    },
+    "Ecommerce": {
+      "count": 10,
+      "percentage": 10.0
+    },
+    "Data, SEO and Scraping": {
+      "count": 10,
+      "percentage": 10.0
+    },
+    "Developer, Infra and Data Platforms": {
+      "count": 10,
+      "percentage": 10.0
+    },
+    "Productivity and Project Management": {
+      "count": 10,
+      "percentage": 10.0
+    },
+    "Finance and Fintech": {
+      "count": 10,
+      "percentage": 10.0
+    },
+    "AI, Research and Media-native": {
+      "count": 10,
+      "percentage": 10.0
+    }
+  },
+  "2_authentication_methods": {
+    "API key": {
+      "count": 79,
+      "percentage": 79.0
+    },
+    "OAuth2": {
+      "count": 67,
+      "percentage": 67.0
+    },
+    "JWT or bearer token": {
+      "count": 51,
+      "percentage": 51.0
+    },
+    "Basic authentication": {
+      "count": 16,
+      "percentage": 16.0
+    },
+    "Personal access token": {
+      "count": 13,
+      "percentage": 13.0
+    },
+    "Other": {
+      "count": 12,
+      "percentage": 12.0
+    },
+    "Unknown": {
+      "count": 1,
+      "percentage": 1.0
+    }
+  },
+  "3_developer_access": {
+    "Self-serve free": {
+      "count": 47,
+      "percentage": 47.0
+    },
+    "Paid-plan dependent": {
+      "count": 33,
+      "percentage": 33.0
+    },
+    "Self-serve trial": {
+      "count": 14,
+      "percentage": 14.0
+    },
+    "Admin approval required": {
+      "count": 4,
+      "percentage": 4.0
+    },
+    "Unknown": {
+      "count": 2,
+      "percentage": 2.0
+    }
+  },
+  "4_public_api_availability": {
+    "has_public_api": {
+      "count": 98,
+      "percentage": 98.0
+    },
+    "no_public_api": {
+      "count": 2,
+      "percentage": 2.0
+    }
+  },
+  "5_api_architectures": {
+    "REST": {
+      "count": 98,
+      "percentage": 98.0
+    },
+    "SDK": {
+      "count": 78,
+      "percentage": 78.0
+    },
+    "Webhooks": {
+      "count": 63,
+      "percentage": 63.0
+    },
+    "Other": {
+      "count": 24,
+      "percentage": 24.0
+    },
+    "GraphQL": {
+      "count": 9,
+      "percentage": 9.0
+    },
+    "SOAP": {
+      "count": 1,
+      "percentage": 1.0
+    }
+  },
+  "6_documentation_coverage": {
+    "documented_with_verified_evidence": {
+      "count": 100,
+      "percentage": 100.0
+    },
+    "missing_or_undocumented": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "7_mcp_availability": {
+    "Community MCP": {
+      "count": 65,
+      "percentage": 65.0
+    },
+    "No verified MCP found": {
+      "count": 27,
+      "percentage": 27.0
+    },
+    "Official MCP": {
+      "count": 6,
+      "percentage": 6.0
+    },
+    "Third-party MCP": {
+      "count": 2,
+      "percentage": 2.0
+    }
+  },
+  "8_buildability_ratings": {
+    "Easy": {
+      "count": 73,
+      "percentage": 73.0
+    },
+    "Medium": {
+      "count": 26,
+      "percentage": 26.0
+    },
+    "Difficult": {
+      "count": 1,
+      "percentage": 1.0
+    }
+  },
+  "9_common_technical_blockers": {
+    "Paid access": {
+      "count": 19,
+      "percentage": 19.0
+    },
+    "Authentication complexity": {
+      "count": 7,
+      "percentage": 7.0
+    },
+    "Partner access": {
+      "count": 5,
+      "percentage": 5.0
+    },
+    "Rate limits": {
+      "count": 1,
+      "percentage": 1.0
+    },
+    "Weak documentation": {
+      "count": 1,
+      "percentage": 1.0
+    },
+    "Restricted API scopes": {
+      "count": 1,
+      "percentage": 1.0
+    },
+    "No public API": {
+      "count": 1,
+      "percentage": 1.0
+    }
+  },
+  "10_partnership_outreach_targets": {
+    "total_requiring_outreach": 4,
+    "percentage_of_catalog": 4.0,
+    "apps": [
+      {
+        "id": 24,
+        "name": "Lark (Larksuite)",
+        "category": "Communications and Messaging",
+        "access_tier": "Admin approval required",
+        "details": "Contact your workspace admin to obtain the Lark App ID and App Secret, or create your own app in the Lark Developer Console and request admin approval."
+      },
+      {
+        "id": 31,
+        "name": "Google Ads",
+        "category": "Marketing, Ads, Email and Social",
+        "access_tier": "Admin approval required",
+        "details": "New developer tokens can initially only access test accounts. To retrieve data from active production accounts, users must apply for Basic or Standard Access in the Google Ads API Center and await approval."
+      },
+      {
+        "id": 33,
+        "name": "LinkedIn Ads",
+        "category": "Marketing, Ads, Email and Social",
+        "access_tier": "Admin approval required",
+        "details": "Access is gated; developers must create an application in the LinkedIn Developer Portal, request the Advertising API product via an access-request form detailing their use case, and undergo review by LinkedIn."
+      },
+      {
+        "id": 39,
+        "name": "Threads (Meta)",
+        "category": "Marketing, Ads, Email and Social",
+        "access_tier": "Admin approval required",
+        "details": "Creating a Meta app and picking the Threads use case is self-serve, but permissions (threads_basic, threads_content_publish, etc.) require Meta App Review and app publication before working on non-tester accounts."
+      }
+    ]
+  }
+}

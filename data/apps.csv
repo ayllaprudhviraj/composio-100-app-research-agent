@@ -1,0 +1,101 @@
+id,name,category,website,official_docs_hint,research_status
+1,Salesforce,CRM and Sales,salesforce.com,salesforce.com,pending
+2,HubSpot,CRM and Sales,hubspot.com,hubspot.com,pending
+3,Pipedrive,CRM and Sales,pipedrive.com,pipedrive.com,pending
+4,Attio,CRM and Sales,attio.com,attio.com,pending
+5,Twenty,CRM and Sales,twenty.com,twenty.com (open-source CRM),pending
+6,Podio,CRM and Sales,podio.com,podio.com,pending
+7,Zoho CRM,CRM and Sales,zoho.com/crm,zoho.com/crm,pending
+8,Close,CRM and Sales,close.com,close.com,pending
+9,Copper,CRM and Sales,copper.com,copper.com,pending
+10,DealCloud,CRM and Sales,dealcloud.com,api.docs.dealcloud.com,pending
+11,Zendesk,Support and Helpdesk,zendesk.com,zendesk.com,pending
+12,Intercom,Support and Helpdesk,intercom.com,intercom.com,pending
+13,Freshdesk,Support and Helpdesk,freshdesk.com,freshdesk.com,pending
+14,Front,Support and Helpdesk,front.com,front.com,pending
+15,Pylon,Support and Helpdesk,usepylon.com,usepylon.com,pending
+16,LiveAgent,Support and Helpdesk,liveagent.com,liveagent.com,pending
+17,Plain,Support and Helpdesk,plain.com,plain.com,pending
+18,Help Scout,Support and Helpdesk,helpscout.com,helpscout.com,pending
+19,Gorgias,Support and Helpdesk,gorgias.com,gorgias.com,pending
+20,Gladly,Support and Helpdesk,gladly.com,gladly.com,pending
+21,Slack,Communications and Messaging,slack.com,slack.com,pending
+22,Twilio,Communications and Messaging,twilio.com,twilio.com,pending
+23,Zoho Cliq,Communications and Messaging,zoho.com/cliq,zoho.com/cliq,pending
+24,Lark (Larksuite),Communications and Messaging,larksuite.com,open.larksuite.com,pending
+25,Pumble,Communications and Messaging,pumble.com,pumble.com,pending
+26,Discord,Communications and Messaging,discord.com,discord.com,pending
+27,Telegram,Communications and Messaging,telegram.org,core.telegram.org,pending
+28,WhatsApp Business,Communications and Messaging,whatsapp.com/business,developers.facebook.com/docs/whatsapp,pending
+29,Aircall,Communications and Messaging,aircall.io,aircall.io,pending
+30,Vonage,Communications and Messaging,vonage.com,developer.vonage.com,pending
+31,Google Ads,"Marketing, Ads, Email and Social",ads.google.com,developers.google.com/google-ads,pending
+32,Meta Ads,"Marketing, Ads, Email and Social",facebook.com/business/ads,developers.facebook.com/docs/marketing-apis,pending
+33,LinkedIn Ads,"Marketing, Ads, Email and Social",linkedin.com/ad-targeting,learn.microsoft.com/linkedin/marketing,pending
+34,GoHighLevel,"Marketing, Ads, Email and Social",gohighlevel.com,highlevel.stoplight.io,pending
+35,Mailchimp,"Marketing, Ads, Email and Social",mailchimp.com,mailchimp.com/developer,pending
+36,Klaviyo,"Marketing, Ads, Email and Social",klaviyo.com,developers.klaviyo.com,pending
+37,systeme.io,"Marketing, Ads, Email and Social",systeme.io,systeme.io (funnel builder),pending
+38,Pinterest,"Marketing, Ads, Email and Social",pinterest.com,developers.pinterest.com,pending
+39,Threads (Meta),"Marketing, Ads, Email and Social",threads.net,developers.facebook.com/docs/threads,pending
+40,SendGrid,"Marketing, Ads, Email and Social",sendgrid.com,sendgrid.com,pending
+41,Shopify,Ecommerce,shopify.com,shopify.dev,pending
+42,WooCommerce,Ecommerce,woocommerce.com,woocommerce.com/document/woocommerce-rest-api,pending
+43,BigCommerce,Ecommerce,bigcommerce.com,developer.bigcommerce.com,pending
+44,Salesforce Commerce Cloud,Ecommerce,salesforce.com/products/commerce-cloud,developer.salesforce.com/docs/commerce,pending
+45,Magento (Adobe Commerce),Ecommerce,business.adobe.com/products/magento/magento-commerce.html,developer.adobe.com/commerce,pending
+46,Squarespace,Ecommerce,squarespace.com,developers.squarespace.com,pending
+47,Ecwid,Ecommerce,ecwid.com,api-docs.ecwid.com,pending
+48,Gumroad,Ecommerce,gumroad.com,gumroad.com/api,pending
+49,Amazon Selling Partner,Ecommerce,sell.amazon.com,developer-docs.amazon.com/sp-api,pending
+50,fanbasis,Ecommerce,fanbasis.com,fanbasis.com,pending
+51,DataForSEO,"Data, SEO and Scraping",dataforseo.com,docs.dataforseo.com,pending
+52,SE Ranking,"Data, SEO and Scraping",seranking.com,seranking.com/api,pending
+53,Ahrefs,"Data, SEO and Scraping",ahrefs.com,ahrefs.com/api,pending
+54,MrScraper,"Data, SEO and Scraping",mrscraper.com,docs.mrscraper.com,pending
+55,Apify,"Data, SEO and Scraping",apify.com,docs.apify.com,pending
+56,Firecrawl,"Data, SEO and Scraping",firecrawl.dev,firecrawl.dev,pending
+57,Bright Data,"Data, SEO and Scraping",brightdata.com,brightdata.com,pending
+58,Sherlock,"Data, SEO and Scraping",github.com/sherlock-project/sherlock,github.com/sherlock-project/sherlock,pending
+59,Waterfall.io,"Data, SEO and Scraping",waterfall.io,waterfall.io (contact/company intel),pending
+60,Clay,"Data, SEO and Scraping",clay.com,clay.com,pending
+61,GitHub,"Developer, Infra and Data Platforms",github.com,docs.github.com/rest,pending
+62,Vercel,"Developer, Infra and Data Platforms",vercel.com,vercel.com/docs/rest-api,pending
+63,Netlify,"Developer, Infra and Data Platforms",netlify.com,docs.netlify.com/api,pending
+64,Cloudflare,"Developer, Infra and Data Platforms",cloudflare.com,developers.cloudflare.com/api,pending
+65,Supabase,"Developer, Infra and Data Platforms",supabase.com,supabase.com/docs,pending
+66,Neo4j,"Developer, Infra and Data Platforms",neo4j.com,neo4j.com/docs/api,pending
+67,Snowflake,"Developer, Infra and Data Platforms",snowflake.com,docs.snowflake.com,pending
+68,MongoDB Atlas,"Developer, Infra and Data Platforms",mongodb.com/atlas,mongodb.com/docs/atlas/api,pending
+69,Datadog,"Developer, Infra and Data Platforms",datadoghq.com,docs.datadoghq.com/api,pending
+70,Sentry,"Developer, Infra and Data Platforms",sentry.io,docs.sentry.io/api,pending
+71,Notion,Productivity and Project Management,notion.so,developers.notion.com,pending
+72,Airtable,Productivity and Project Management,airtable.com,airtable.com/developers,pending
+73,Linear,Productivity and Project Management,linear.app,developers.linear.app,pending
+74,Jira,Productivity and Project Management,atlassian.com/software/jira,developer.atlassian.com,pending
+75,Asana,Productivity and Project Management,asana.com,developers.asana.com,pending
+76,Monday.com,Productivity and Project Management,monday.com,developer.monday.com,pending
+77,ClickUp,Productivity and Project Management,clickup.com,clickup.com/api,pending
+78,Coda,Productivity and Project Management,coda.io,coda.io/developers,pending
+79,Smartsheet,Productivity and Project Management,smartsheet.com,smartsheet.com/developers,pending
+80,Harvest,Productivity and Project Management,getharvest.com,harvestapp.com (help.getharvest.com/api-v2),pending
+81,Stripe,Finance and Fintech,stripe.com,stripe.com/docs/api,pending
+82,Plaid,Finance and Fintech,plaid.com,plaid.com/docs,pending
+83,Binance,Finance and Fintech,binance.com,binance-docs.github.io,pending
+84,Paygent Connect,Finance and Fintech,paygent.co.jp,paygent (NMI-powered),pending
+85,iPayX,Finance and Fintech,ipayx.ai,ipayx.ai/docs,pending
+86,QuickBooks,Finance and Fintech,quickbooks.intuit.com,developer.intuit.com,pending
+87,Xero,Finance and Fintech,xero.com,developer.xero.com,pending
+88,Brex,Finance and Fintech,brex.com,developer.brex.com,pending
+89,Ramp,Finance and Fintech,ramp.com,docs.ramp.com,pending
+90,PitchBook,Finance and Fintech,pitchbook.com,pitchbook.com (research API),pending
+91,NotebookLM,"AI, Research and Media-native",notebooklm.google.com,cloud.google.com/gemini (Enterprise API),pending
+92,Otter AI,"AI, Research and Media-native",otter.ai,help.otter.ai (MCP server),pending
+93,Fathom,"AI, Research and Media-native",fathom.video,fathom.video,pending
+94,Consensus,"AI, Research and Media-native",consensus.app,consensus.app (OAuth requested),pending
+95,Reducto,"AI, Research and Media-native",reducto.ai,reducto.ai (document parsing),pending
+96,Devin,"AI, Research and Media-native",devin.ai,docs.devin.ai (MCP),pending
+97,higgsfield,"AI, Research and Media-native",higgsfield.ai,higgsfield.ai/cli (content suite),pending
+98,Mermaid CLI,"AI, Research and Media-native",mermaid.js.org,github.com/mermaid-js/mermaid-cli,pending
+99,YouTube Transcript,"AI, Research and Media-native",transcriptapi.com,transcriptapi.com,pending
+100,Grain,"AI, Research and Media-native",grain.com,grain.com (meeting notes),pending
